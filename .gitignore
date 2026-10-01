@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+venv/
+env/
+.venv/
+mainvenv/
+
+# YOLO - Models (bari files)
+*.pt
+*.pth
+*.weights
+*.onnx
+*.tflite
+*.pb
+*.h5
+*.bin
+*.safetensors
+models/
+
+# YOLO - Training outputs
+runs/
+wandb/
+*.cache
+*.yaml.lock
+
+# YOLO - Datasets
+datasets/
+data/
+*.zip
+*.tar.gz
+
+# Images / Media (optional - agar test images hain)
+# *.jpg
+# *.jpeg
+# *.png
+# *.mp4
+
+# Database
+*.db
+*.sqlite3
+
+# Environment
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Build
+build/
+dist/
+*.spec
+*.exe
+*.pkg
